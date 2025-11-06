@@ -39,10 +39,19 @@ Game ini dirancang agar bisa dimainkan langsung melalui browser — **ringan**, 
 | **State Management** | Redux Toolkit / Zustand |
 | **Routing** | React Router v6 |
 | **Animation** | Framer Motion |
-| **Storage** | Local JSON / Firebase / Supabase |
+| **Storage** | LocalStorage |
 | **Deployment** | Netlify.app |
 | **Sound Engine** | Howler.js |
 | **UI Library** | TailwindCSS / Chakra UI (opsional) |
+
+### 💾 Penyimpanan Data (LocalStorage)
+
+Shinobi Legacy menggunakan **LocalStorage** sebagai solusi penyimpanan utama:
+- ✅ **Tanpa backend** - Tidak perlu server database
+- ✅ **Offline capable** - Data tersimpan lokal di browser
+- ✅ **Export/Import** - Backup dan restore save data
+- ✅ **Ringan & cepat** - Akses data instant
+- ⚠️ **Per-browser** - Save data tidak sync antar device (fitur cloud save untuk future update)
 
 ---
 
@@ -140,7 +149,6 @@ Navigasi melalui **map interaktif** seperti RPG klasik:
   - 💰 **Gold** - Earned through gameplay
   - 💎 **Gem** - Premium currency (optional)
 - **Daily deals** & **limited time offers**
-- Rencana integrasi **pembayaran mikro** (Netlify Function/Firebase)
 - **Trading system** (future update)
 
 ### 👤 9. Profil & Progress
@@ -284,18 +292,11 @@ npm run preview
 Create a `.env` file in the root directory:
 
 ```env
-# Firebase Config (if using Firebase)
-VITE_FIREBASE_API_KEY=your_api_key
-VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
-VITE_FIREBASE_PROJECT_ID=your_project_id
-
-# Supabase Config (if using Supabase)
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_ANON_KEY=your_anon_key
-
 # Game Config
 VITE_GAME_VERSION=1.0.0
-VITE_API_BASE_URL=https://api.shinobi-legacy.com
+VITE_GAME_NAME=Shinobi Legacy
+VITE_ENABLE_SOUND=true
+VITE_DEBUG_MODE=false
 ```
 
 ---

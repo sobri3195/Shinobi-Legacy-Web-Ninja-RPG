@@ -11,7 +11,6 @@ Panduan lengkap untuk deploy Shinobi Legacy ke berbagai platform hosting.
 - [Netlify Deployment](#netlify-deployment)
 - [Vercel Deployment](#vercel-deployment)
 - [GitHub Pages Deployment](#github-pages-deployment)
-- [Firebase Hosting](#firebase-hosting)
 - [Custom Server (VPS)](#custom-server-vps)
 - [Environment Variables](#environment-variables)
 - [CI/CD Setup](#cicd-setup)
@@ -302,83 +301,6 @@ export default defineConfig({
 
 ---
 
-## 🔥 Firebase Hosting
-
-### Setup
-
-```bash
-# Install Firebase CLI
-npm install -g firebase-tools
-
-# Login
-firebase login
-
-# Initialize
-firebase init hosting
-
-# Select or create project
-# Choose 'dist' as public directory
-# Configure as single-page app: Yes
-```
-
-### Deploy
-
-```bash
-# Build
-npm run build
-
-# Deploy
-firebase deploy --only hosting
-
-# Deploy to specific site
-firebase deploy --only hosting:shinobi-legacy
-```
-
-### Firebase Configuration
-
-File: `firebase.json`
-
-```json
-{
-  "hosting": {
-    "public": "dist",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ],
-    "headers": [
-      {
-        "source": "**/*.@(jpg|jpeg|gif|png|svg|webp)",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "max-age=31536000"
-          }
-        ]
-      },
-      {
-        "source": "**/*.@(js|css)",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "max-age=31536000"
-          }
-        ]
-      }
-    ]
-  }
-}
-```
-
----
-
 ## 🖥️ Custom Server (VPS)
 
 ### Using Nginx
@@ -445,13 +367,9 @@ sudo certbot --nginx -d shinobi-legacy.com -d www.shinobi-legacy.com
 ```env
 # Production Environment
 VITE_GAME_VERSION=1.0.0
-VITE_API_BASE_URL=https://api.shinobi-legacy.com
+VITE_GAME_NAME=Shinobi Legacy
 VITE_ENABLE_ANALYTICS=true
 VITE_ENABLE_SOUND=true
-
-# Firebase Production
-VITE_FIREBASE_API_KEY=production_key
-VITE_FIREBASE_PROJECT_ID=shinobi-legacy-prod
 
 # Feature Flags
 VITE_ENABLE_PVP=true

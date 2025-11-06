@@ -445,6 +445,8 @@ questSlice.actions = {
 
 ## 💾 Local Storage API
 
+**Shinobi Legacy menggunakan LocalStorage sebagai solusi penyimpanan utama.** Semua data game (karakter, progress, inventory, settings) disimpan langsung di browser pengguna tanpa memerlukan backend database.
+
 ### Storage Keys
 
 ```typescript

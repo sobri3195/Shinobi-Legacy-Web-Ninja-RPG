@@ -77,6 +77,8 @@ yarn dev
 
 The game will open at: **http://localhost:3000** 🎮
 
+> 💾 **Note**: Shinobi Legacy menggunakan **LocalStorage** untuk menyimpan data game. Semua progress karakter tersimpan di browser lokal tanpa memerlukan backend database.
+
 ---
 
 ## 🎯 First Steps
