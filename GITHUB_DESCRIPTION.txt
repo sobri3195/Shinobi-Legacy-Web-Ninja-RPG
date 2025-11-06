@@ -1,0 +1,40 @@
+🥷 Shinobi Legacy - Web-Based Ninja RPG Game
+
+Game RPG berbasis web yang menghidupkan kembali keseruan Ninja Saga Facebook. Dibangun dengan React.js, featuring turn-based combat system, elemental powers, dan nostalgia anime klasik. Main langsung di browser - ringan, responsif, dan penuh strategi!
+
+🎮 Features: Character Creation | Turn-Based Combat | Jutsu System | PvP Arena | Missions & Quests | Inventory & Equipment | 5 Elements (Fire, Water, Thunder, Wind, Earth)
+
+⚡ Tech Stack: React.js • Redux Toolkit • React Router • Framer Motion • TailwindCSS • Netlify
+
+🌐 Play Now: https://shinobi-legacy.netlify.app
+
+⭐ Star if you love ninja games!
+
+---
+
+TAGS/TOPICS (for GitHub):
+- game
+- rpg
+- ninja
+- react
+- javascript
+- typescript
+- anime
+- turn-based-combat
+- browser-game
+- web-game
+- naruto
+- ninja-saga
+- gaming
+- frontend
+- netlify
+- vite
+- redux
+- tailwindcss
+- framer-motion
+- react-router
+
+---
+
+GITHUB ABOUT SECTION:
+🥷 Web-based ninja RPG inspired by Ninja Saga • Turn-based combat • 5 Elements • PvP Arena • Missions & Quests • Built with React.js
