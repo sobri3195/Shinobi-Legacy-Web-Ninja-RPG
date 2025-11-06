@@ -68,7 +68,7 @@
 7. **DEPLOYMENT.md** (11,706 bytes)
    - Multi-platform deployment guides
    - Netlify (primary)
-   - Vercel, GitHub Pages, Firebase
+   - Vercel, GitHub Pages
    - VPS/Custom server setup
    - CI/CD pipelines
    - Environment variables
@@ -133,8 +133,6 @@
 
 16. **.env.example** (920 bytes)
     - Environment variable template
-    - Firebase configuration
-    - Supabase configuration
     - Feature flags
     - Game settings
 

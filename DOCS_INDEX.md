@@ -245,7 +245,7 @@ Have questions about the documentation?
 
 - [Netlify Docs](https://docs.netlify.com/)
 - [Vercel Docs](https://vercel.com/docs)
-- [Firebase Hosting](https://firebase.google.com/docs/hosting)
+- [GitHub Pages](https://pages.github.com/)
 
 ---
 

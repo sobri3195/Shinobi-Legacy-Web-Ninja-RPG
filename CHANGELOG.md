@@ -9,12 +9,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+- **Storage System**: Removed Firebase and Supabase dependencies
+- **Data Persistence**: Changed to LocalStorage-only implementation
+- All game data now stored locally in browser
+- Simplified deployment without external database dependencies
+
 ### Planned
 - Full battle system implementation
 - PvP Arena mode
 - Clan system
 - Achievement system
 - Shop & economy system
+- Export/Import save data functionality
 
 ---
 
