@@ -400,6 +400,42 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
+## 👨‍💻 Author
+
+<div align="center">
+
+**Lettu Kes dr. Muhammad Sobri Maulana, S.Kom, CEH, OSCP, OSCE**
+
+[![GitHub](https://img.shields.io/badge/GitHub-sobri3195-181717?style=for-the-badge&logo=github)](https://github.com/sobri3195)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail)](mailto:muhammadsobrimaulana31@gmail.com)
+
+</div>
+
+### 🌐 Social Media & Community
+
+- 🎥 **YouTube**: [Muhammad Sobri Maulana](https://www.youtube.com/@muhammadsobrimaulana6013)
+- 📱 **TikTok**: [@dr.sobri](https://www.tiktok.com/@dr.sobri)
+- 💬 **Telegram**: [Winlin Exploit](https://t.me/winlin_exploit)
+- 💻 **Website**: [muhammadsobrimaulana.netlify.app](https://muhammadsobrimaulana.netlify.app)
+- 🌐 **Portfolio**: [muhammad-sobri-maulana.sevalla.page](https://muhammad-sobri-maulana-kvr6a.sevalla.page/)
+- 💬 **WhatsApp Group**: [Join Community](https://chat.whatsapp.com/B8nwRZOBMo64GjTwdXV8Bl)
+
+---
+
+## ☕ Support & Donation
+
+Jika proyek ini bermanfaat, dukung pengembangan lebih lanjut melalui:
+
+- 💰 **Lynk.id**: [muhsobrimaulana](https://lynk.id/muhsobrimaulana)
+- ☕ **Trakteer**: [g9mkave5gauns962u07t](https://trakteer.id/g9mkave5gauns962u07t)
+- 🛍️ **Gumroad**: [maulanasobri.gumroad.com](https://maulanasobri.gumroad.com/)
+- ❤️ **KaryaKarsa**: [muhammadsobrimaulana](https://karyakarsa.com/muhammadsobrimaulana)
+- 🎁 **Nyawer**: [MuhammadSobriMaulana](https://nyawer.co/MuhammadSobriMaulana)
+
+Setiap donasi sangat berarti untuk pengembangan proyek open-source! 🙏
+
+---
+
 ## 🙏 Acknowledgments
 
 - Inspired by **Ninja Saga** (Facebook game by ngmoco)
@@ -412,10 +448,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact & Support
 
 - 🌐 **Website**: [shinobi-legacy.netlify.app](https://shinobi-legacy.netlify.app)
-- 📧 **Email**: support@shinobi-legacy.com
-- 💬 **Discord**: [Join our community](#)
-- 🐦 **Twitter**: [@ShinobiLegacy](#)
-- 📱 **Instagram**: [@shinobi.legacy](#)
+- 📧 **Email**: [muhammadsobrimaulana31@gmail.com](mailto:muhammadsobrimaulana31@gmail.com)
+- 💬 **WhatsApp Group**: [Join Community](https://chat.whatsapp.com/B8nwRZOBMo64GjTwdXV8Bl)
+- 🎥 **YouTube**: [@muhammadsobrimaulana6013](https://www.youtube.com/@muhammadsobrimaulana6013)
+- 💬 **Telegram**: [winlin_exploit](https://t.me/winlin_exploit)
 
 ---
 
@@ -423,7 +459,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **⭐ Star this repo if you like the project!**
 
-Made with ❤️ by the Shinobi Legacy Team
+Made with ❤️ by [Muhammad Sobri Maulana](https://github.com/sobri3195)
 
 [🔝 Back to Top](#-shinobi-legacy)
 
