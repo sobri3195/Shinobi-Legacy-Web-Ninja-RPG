@@ -1,0 +1,162 @@
+[
+  {
+    "id": "tutorial_1",
+    "name": "Tutorial: Latihan Dasar",
+    "difficulty": "easy",
+    "level": 1,
+    "description": "Belajar dasar-dasar pertempuran dengan training dummy",
+    "objectives": [
+      "Kalahkan training dummy"
+    ],
+    "enemy": {
+      "id": "training_dummy",
+      "name": "Training Dummy",
+      "level": 1,
+      "element": "earth",
+      "hp": 50,
+      "cp": 20,
+      "attack": 5,
+      "defense": 5,
+      "speed": 5,
+      "jutsu": []
+    },
+    "rewards": {
+      "exp": 50,
+      "gold": 100,
+      "items": ["health_potion"]
+    },
+    "story": {
+      "intro": "Selamat datang di Dojo! Untuk memulai, mari kita latihan melawan training dummy.",
+      "victory": "Bagus! Kamu telah menyelesaikan latihan dasar. Kamu sudah siap untuk misi yang lebih sulit!",
+      "defeat": "Jangan menyerah! Coba lagi dan gunakan strategi yang lebih baik."
+    }
+  },
+  {
+    "id": "mission_bandit_1",
+    "name": "Mengusir Bandit",
+    "difficulty": "easy",
+    "level": 2,
+    "description": "Bandit mengganggu desa. Usir mereka!",
+    "objectives": [
+      "Kalahkan 1 bandit"
+    ],
+    "enemy": {
+      "id": "bandit",
+      "name": "Bandit",
+      "level": 3,
+      "element": "wind",
+      "hp": 80,
+      "cp": 30,
+      "attack": 12,
+      "defense": 8,
+      "speed": 15,
+      "jutsu": []
+    },
+    "rewards": {
+      "exp": 100,
+      "gold": 200,
+      "items": ["kunai"]
+    },
+    "story": {
+      "intro": "Bandit telah mencuri dari penduduk desa. Hentikan mereka!",
+      "victory": "Terima kasih! Kamu telah menyelamatkan desa dari bandit!",
+      "defeat": "Bandit terlalu kuat! Tingkatkan levelmu dan coba lagi."
+    }
+  },
+  {
+    "id": "mission_wolf_1",
+    "name": "Serigala di Hutan",
+    "difficulty": "normal",
+    "level": 5,
+    "description": "Serigala liar menyerang traveler di hutan",
+    "objectives": [
+      "Kalahkan serigala liar"
+    ],
+    "enemy": {
+      "id": "wild_wolf",
+      "name": "Wild Wolf",
+      "level": 6,
+      "element": "wind",
+      "hp": 120,
+      "cp": 40,
+      "attack": 18,
+      "defense": 10,
+      "speed": 25,
+      "jutsu": ["taijutsu_combo"]
+    },
+    "rewards": {
+      "exp": 200,
+      "gold": 300,
+      "items": ["health_potion", "ninja_armor"]
+    },
+    "story": {
+      "intro": "Traveler melaporkan serigala liar yang agresif di hutan. Selidiki dan atasi!",
+      "victory": "Hutan kini aman! Penduduk desa berterima kasih padamu.",
+      "defeat": "Serigala terlalu cepat! Tingkatkan speed dan coba strategi berbeda."
+    }
+  },
+  {
+    "id": "mission_rogue_ninja",
+    "name": "Ninja Pemberontak",
+    "difficulty": "hard",
+    "level": 10,
+    "description": "Ninja pemberontak dari desa lain menyusup",
+    "objectives": [
+      "Kalahkan rogue ninja"
+    ],
+    "enemy": {
+      "id": "rogue_ninja",
+      "name": "Rogue Ninja",
+      "level": 12,
+      "element": "fire",
+      "hp": 200,
+      "cp": 80,
+      "attack": 30,
+      "defense": 20,
+      "speed": 30,
+      "jutsu": ["fireball", "taijutsu_combo"]
+    },
+    "rewards": {
+      "exp": 500,
+      "gold": 800,
+      "items": ["katana", "chakra_amulet", "health_potion_large"]
+    },
+    "story": {
+      "intro": "Ninja pemberontak terlihat di perbatasan desa. Dia sangat berbahaya!",
+      "victory": "Ninja pemberontak telah dikalahkan! Desa sekarang aman.",
+      "defeat": "Ninja pemberontak terlalu kuat! Latih dirimu lebih keras."
+    }
+  },
+  {
+    "id": "boss_shadow_master",
+    "name": "Master of Shadows",
+    "difficulty": "expert",
+    "level": 20,
+    "description": "Boss yang menguasai jutsu bayangan",
+    "objectives": [
+      "Kalahkan Shadow Master"
+    ],
+    "enemy": {
+      "id": "shadow_master",
+      "name": "Shadow Master",
+      "level": 25,
+      "element": "thunder",
+      "hp": 500,
+      "cp": 200,
+      "attack": 50,
+      "defense": 35,
+      "speed": 40,
+      "jutsu": ["lightning_blade", "shadow_clone", "substitution"]
+    },
+    "rewards": {
+      "exp": 2000,
+      "gold": 5000,
+      "items": ["demon_blade", "scroll_fire", "health_potion_large", "chakra_potion"]
+    },
+    "story": {
+      "intro": "Shadow Master adalah ninja legendaris yang menguasai jutsu bayangan. Hanya ninja terkuat yang bisa mengalahkannya!",
+      "victory": "Luar biasa! Kamu telah mengalahkan Shadow Master! Namamu akan terukir dalam sejarah!",
+      "defeat": "Shadow Master terlalu kuat! Tingkatkan level dan equipmentmu sebelum mencoba lagi."
+    }
+  }
+]
