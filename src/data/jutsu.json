@@ -1,0 +1,100 @@
+[
+  {
+    "id": "fireball",
+    "name": "Katon: Goukakyuu no Jutsu",
+    "type": "ninjutsu",
+    "element": "fire",
+    "rank": "C",
+    "cost": { "cp": 20, "cooldown": 2 },
+    "power": { "base": 50, "scaling": 1.5 },
+    "description": "Jutsu api yang mengeluarkan bola api besar",
+    "effects": [
+      { "type": "burn", "duration": 2, "value": 10 }
+    ]
+  },
+  {
+    "id": "water_dragon",
+    "name": "Suiton: Suiryuudan no Jutsu",
+    "type": "ninjutsu",
+    "element": "water",
+    "rank": "B",
+    "cost": { "cp": 35, "cooldown": 3 },
+    "power": { "base": 70, "scaling": 1.8 },
+    "description": "Membuat naga air yang menyerang musuh",
+    "effects": []
+  },
+  {
+    "id": "lightning_blade",
+    "name": "Raikiri",
+    "type": "ninjutsu",
+    "element": "thunder",
+    "rank": "A",
+    "cost": { "cp": 50, "cooldown": 4 },
+    "power": { "base": 100, "scaling": 2.0 },
+    "description": "Jutsu petir yang sangat kuat",
+    "effects": [
+      { "type": "stun", "duration": 1, "value": 0 }
+    ]
+  },
+  {
+    "id": "wind_shuriken",
+    "name": "Fuuton: Rasenshuriken",
+    "type": "ninjutsu",
+    "element": "wind",
+    "rank": "S",
+    "cost": { "cp": 60, "cooldown": 5 },
+    "power": { "base": 120, "scaling": 2.2 },
+    "description": "Shuriken angin yang sangat mematikan",
+    "effects": [
+      { "type": "debuff_def", "duration": 3, "value": 0.3 }
+    ]
+  },
+  {
+    "id": "earth_wall",
+    "name": "Doton: Doryuuheki",
+    "type": "ninjutsu",
+    "element": "earth",
+    "rank": "B",
+    "cost": { "cp": 25, "cooldown": 3 },
+    "power": { "base": 0, "scaling": 0 },
+    "description": "Membuat dinding tanah untuk pertahanan",
+    "effects": [
+      { "type": "shield", "duration": 3, "value": 50 }
+    ]
+  },
+  {
+    "id": "taijutsu_combo",
+    "name": "Konoha Senpuu",
+    "type": "taijutsu",
+    "element": null,
+    "rank": "D",
+    "cost": { "cp": 15, "cooldown": 1 },
+    "power": { "base": 40, "scaling": 1.2 },
+    "description": "Serangan taijutsu kombinasi tendangan",
+    "effects": []
+  },
+  {
+    "id": "shadow_clone",
+    "name": "Kage Bunshin no Jutsu",
+    "type": "ninjutsu",
+    "element": null,
+    "rank": "B",
+    "cost": { "cp": 30, "cooldown": 3 },
+    "power": { "base": 60, "scaling": 1.4 },
+    "description": "Membuat klon bayangan untuk menyerang",
+    "effects": []
+  },
+  {
+    "id": "substitution",
+    "name": "Kawarimi no Jutsu",
+    "type": "ninjutsu",
+    "element": null,
+    "rank": "E",
+    "cost": { "cp": 10, "cooldown": 2 },
+    "power": { "base": 0, "scaling": 0 },
+    "description": "Mengganti posisi dengan kayu untuk menghindari serangan",
+    "effects": [
+      { "type": "buff_evasion", "duration": 2, "value": 0.5 }
+    ]
+  }
+]
